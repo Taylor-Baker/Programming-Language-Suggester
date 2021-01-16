@@ -27,9 +27,11 @@
 
 .question1-bg {
   background-attachment: fixed;
+  background-size: cover;
   background-repeat: repeat-y;
-  background-position: 50% 0px;
-  background-image: url("img/woman-with-phone-pop-art.jpg");
+  background-position: 50% 200px;
+  background-image: url('../img/woman-with-phone-pop-art.jpg');
+  color: white;
 }
 
 .jumbotron {
@@ -37,4 +39,9 @@
   margin-bottom: 2rem;
   background-color: #e9ecef;
   border-radius: 0%;
+}
+
+.btn-outline-purple {
+  color: #af17bd;
+  border-color: #af17bd;
 }
