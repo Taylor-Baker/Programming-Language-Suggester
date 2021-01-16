@@ -16,6 +16,22 @@
   padding-right: 1.5rem;
 }
 
+.question1-image {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  max-width: 360px;
+  border: 2px solid black;
+}
+
+.question1-bg {
+  background-attachment: fixed;
+  background-repeat: repeat-y;
+  background-position: 50% 0px;
+  background-image: url("img/woman-with-phone-pop-art.jpg");
+}
+
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
