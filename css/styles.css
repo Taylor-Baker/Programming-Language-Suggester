@@ -17,6 +17,10 @@
   font-size: 20px;
 }
 
+.question-description-text {
+  font-weight: 620;
+}
+
 .question-bg {
   background-color: rgba(245, 245, 245, 0.75);
   padding: 1.5rem;
