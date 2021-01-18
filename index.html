@@ -27,6 +27,16 @@
         <p>
           There has never been a better time to start learning how to program. The barrier for entry is only your time and dedication, but doesn't even have to cost you any money. Oh sure, you can definitely find qualified and trained professionals to assist you for a (usually) fair price, but people are even learning how to program, from home, for free, every single day. So if it's so easy to access this information, why not give it a try?
         </p>
+      </div>
+      <div>
+
+      </div>
+    </div>
+
+    <!--Language Suggester Quiz-->
+    <div class="question language-quiz-bg container">
+      <div class="language-quiz question-bg">
+        <h2>Language Suggester Quiz</h2>
         <p>
           Inevitably, no matter what path you choose, you'll have to make this one decision: what programming language should I learn first?
         </p>
@@ -34,28 +44,11 @@
           Now you have another choice before you; you could go online, do hours of careful research in an attempt to find the perfect first language, or; you can take our Language Suggester Quiz to find out the very best language to suit both your purpose and your personality.
         </p>
       </div>
-      <div>
-
-      </div>
     </div>
 
-    
-    <div>
-      <!--Language Suggester Quiz-->
-      <div class="question language-quiz-bg container">
-        <div class="language-quiz question-bg">
-          <h2>Language Suggester Quiz</h2>
-          <p>
-            There has never been a better time to start learning how to program. The barrier for entry is only your time and dedication, but doesn't even have to cost you any money. Oh sure, you can definitely find qualified and trained professionals to assist you for a (usually) fair price, but people are even learning how to program, from home, for free, every single day. So if it's so easy to access this information, why not give it a try?
-          </p>
-          <p>
-            Inevitably, no matter what path you choose, you'll have to make this one decision: what programming language should I learn first?
-          </p>
-          <p>
-            Now you have another choice before you; you could go online, do hours of careful research in an attempt to find the perfect first language, or; you can take our Language Suggester Quiz to find out the very best language to suit both your purpose and your personality.
-          </p>
-        </div>
-      </div>
+    <!--Quiz Questions-->
+    <form id="languageForm" class="form">
+
       <!--Question 1:-->
       <div class="question question1-bg  container">
         <div class="question-bg">
@@ -63,33 +56,27 @@
           <div class="question-description">
             <div class="question-description-text">
               <p>
-                One of the first things to consider when writing code is what platform will best meet the needs of your application. Are you creating advanced desktop apps with robust features, or would the best medium for your code be something more lightweight and mobile? Perhaps you would like to create code that can run on both desktop <em>and</em> mobile, communicating seamlessly between the two. 
-              </p>
-              <p>
-                Knowing what platform your code will be most useful on is a great first step to figuring out what coding language you should learn first.
+                Question desciption. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
               </p>
             </div>
             <div class="question-answer-bg">
-              <p><strong>Are you more interested in creating desktop applications, mobile applications, or would you like to work with both?</strong></p>
+              <p><strong>Would you rather create web applications, software applications, or would you like to integrate the two?</strong></p>
               <!--Answer Options-->
               <div class="row">
-                <div class="col-4">
-                  <label for="q1-a1" class="btn btn-outline-primary answer-button">Desktop</label>
-                  <input type="radio" class="btn-check form-check" name="platform" id="q1-a1" value="" autocomplete="on">
-                </div>
-                <div class="col-4">
-                  <label for="q1-a2" class="btn btn-outline-danger answer-button">Mobile</label>
-                  <input type="radio" class="btn-check form-check" name="platform" id="q1-a2" value="" autocomplete="off">
-                </div>
-                <div class="col-4">
-                  <label for="q1-a3" class="btn btn-outline-purple answer-button">Both</label>
-                  <input type="radio" class="btn-check form-check" name="platform" id="q1-a3" value="" autocomplete="off">
-                </div>
+                <input type="radio" class="btn-check" name="product" id="q1-a1" value="1" autocomplete="off">
+                <label class="btn btn-outline-danger col-4 answer-button" for="q1-a1">Web</label>
+        
+                <input type="radio" class="btn-check" name="product" id="q1-a2" value="2" autocomplete="off">
+                <label class="btn btn-outline-success col-4 answer-button" for="q1-a2">Software</label>
+        
+                <input type="radio" class="btn-check" name="product" id="q1-a3" value="3" autocomplete="off">
+                <label class="btn btn-outline-info col-4 answer-button" for="q1-a3">Both</label>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <!--Question 2:-->
       <div class="question question2-bg  container">
         <div class="question-bg">
@@ -107,23 +94,20 @@
               <p><strong>Are you more interested in creating desktop applications, mobile applications, or would you like to work with both?</strong></p>
               <!--Answer Options-->
               <div class="row">
-                <div class="col-4">
-                  <label for="q1-a1" class="btn btn-outline-primary answer-button">Desktop</label>
-                  <input type="radio" class="btn-check form-check" name="platform" id="q1-a1" value="" autocomplete="on">
-                </div>
-                <div class="col-4">
-                  <label for="q1-a2" class="btn btn-outline-danger answer-button">Mobile</label>
-                  <input type="radio" class="btn-check form-check" name="platform" id="q1-a2" value="" autocomplete="off">
-                </div>
-                <div class="col-4">
-                  <label for="q1-a3" class="btn btn-outline-purple answer-button">Both</label>
-                  <input type="radio" class="btn-check form-check" name="platform" id="q1-a3" value="" autocomplete="off">
-                </div>
+                <input type="radio" class="btn-check" name="platform" id="q2-a1" value="4" autocomplete="off">
+                <label class="btn btn-outline-primary col-4 answer-button" for="q2-a1">Desktop</label>
+        
+                <input type="radio" class="btn-check" name="platform" id="q2-a2" value="5" autocomplete="off">
+                <label class="btn btn-outline-danger col-4 answer-button" for="q2-a2">Mobile</label>
+        
+                <input type="radio" class="btn-check" name="platform" id="q2-a3" value="1" autocomplete="off">
+                <label class="btn btn-outline-purple col-4 answer-button" for="q2-a3">Both</label>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <!--Question 3:-->
       <div class="question question3-bg  container">
         <div class="question-bg">
@@ -131,33 +115,27 @@
           <div class="question-description">
             <div class="question-description-text">
               <p>
-                One of the first things to consider when writing code is what platform will best meet the needs of your application. Are you creating advanced desktop apps with robust features, or would the best medium for your code be something more lightweight and mobile? Perhaps you would like to create code that can run on both desktop <em>and</em> mobile, communicating seamlessly between the two. 
-              </p>
-              <p>
-                Knowing what platform your code will be most useful on is a great first step to figuring out what coding language you should learn first.
+                Question desciption. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
               </p>
             </div>
             <div class="question-answer-bg">
-              <p><strong>Are you more interested in creating desktop applications, mobile applications, or would you like to work with both?</strong></p>
+              <p><strong>Would you rather create web applications, software applications, or would you like to integrate the two?</strong></p>
               <!--Answer Options-->
               <div class="row">
-                <div class="col-4">
-                  <label for="q1-a1" class="btn btn-outline-primary answer-button">Desktop</label>
-                  <input type="radio" class="btn-check form-check" name="platform" id="q1-a1" value="" autocomplete="on">
-                </div>
-                <div class="col-4">
-                  <label for="q1-a2" class="btn btn-outline-danger answer-button">Mobile</label>
-                  <input type="radio" class="btn-check form-check" name="platform" id="q1-a2" value="" autocomplete="off">
-                </div>
-                <div class="col-4">
-                  <label for="q1-a3" class="btn btn-outline-purple answer-button">Both</label>
-                  <input type="radio" class="btn-check form-check" name="platform" id="q1-a3" value="" autocomplete="off">
-                </div>
+                <input type="radio" class="btn-check" name="operatingSystem" id="q3-a1" value="2" autocomplete="off">
+                <label class="btn btn-outline-info col-4 answer-button" for="q3-a1">Windows</label>
+        
+                <input type="radio" class="btn-check" name="operatingSystem" id="q3-a2" value="3" autocomplete="off">
+                <label class="btn btn-outline-secondary col-4 answer-button" for="q3-a2">iOS</label>
+        
+                <input type="radio" class="btn-check" name="operatingSystem" id="q3-a3" value="4" autocomplete="off">
+                <label class="btn btn-outline-warning col-4 answer-button" for="q3-a3">Linux</label>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <!--Question 4:-->
       <div class="question question4-bg  container">
         <div class="question-bg">
@@ -165,33 +143,27 @@
           <div class="question-description">
             <div class="question-description-text">
               <p>
-                One of the first things to consider when writing code is what platform will best meet the needs of your application. Are you creating advanced desktop apps with robust features, or would the best medium for your code be something more lightweight and mobile? Perhaps you would like to create code that can run on both desktop <em>and</em> mobile, communicating seamlessly between the two. 
-              </p>
-              <p>
-                Knowing what platform your code will be most useful on is a great first step to figuring out what coding language you should learn first.
+                Question desciption. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
             </div>
             <div class="question-answer-bg">
-              <p><strong>Are you more interested in creating desktop applications, mobile applications, or would you like to work with both?</strong></p>
+              <p><strong>Would you rather create web applications, software applications, or would you like to integrate the two?</strong></p>
               <!--Answer Options-->
               <div class="row">
-                <div class="col-4">
-                  <label for="q1-a1" class="btn btn-outline-primary answer-button">Desktop</label>
-                  <input type="radio" class="btn-check form-check" name="platform" id="q1-a1" value="" autocomplete="on">
-                </div>
-                <div class="col-4">
-                  <label for="q1-a2" class="btn btn-outline-danger answer-button">Mobile</label>
-                  <input type="radio" class="btn-check form-check" name="platform" id="q1-a2" value="" autocomplete="off">
-                </div>
-                <div class="col-4">
-                  <label for="q1-a3" class="btn btn-outline-purple answer-button">Both</label>
-                  <input type="radio" class="btn-check form-check" name="platform" id="q1-a3" value="" autocomplete="off">
-                </div>
+                <input type="radio" class="btn-check" name="pickAnEnd" id="q4-a1" value="5" autocomplete="off">
+                <label class="btn btn-outline-warning col-4 answer-button" for="q4-a1">Front-End</label>
+        
+                <input type="radio" class="btn-check" name="pickAnEnd" id="q4-a2" value="1" autocomplete="off">
+                <label class="btn btn-outline-primary col-4 answer-button" for="q4-a2">Back-End</label>
+        
+                <input type="radio" class="btn-check" name="pickAnEnd" id="q4-a3" value="2" autocomplete="off">
+                <label class="btn btn-outline-success col-4 answer-button" for="q4-a3">Full-Stack</label>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <!--Question 5:-->
       <div class="question question5-bg  container">
         <div class="question-bg">
@@ -199,74 +171,79 @@
           <div class="question-description">
             <div class="question-description-text">
               <p>
-                One of the first things to consider when writing code is what platform will best meet the needs of your application. Are you creating advanced desktop apps with robust features, or would the best medium for your code be something more lightweight and mobile? Perhaps you would like to create code that can run on both desktop <em>and</em> mobile, communicating seamlessly between the two. 
-              </p>
-              <p>
-                Knowing what platform your code will be most useful on is a great first step to figuring out what coding language you should learn first.
+                Question desciption. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
             </div>
             <div class="question-answer-bg">
-              <p><strong>Are you more interested in creating desktop applications, mobile applications, or would you like to work with both?</strong></p>
+              <p><strong>Would you rather create web applications, software applications, or would you like to integrate the two?</strong></p>
               <!--Answer Options-->
               <div class="row">
-                <div class="col-4">
-                  <label for="q1-a1" class="btn btn-outline-primary answer-button">Desktop</label>
-                  <input type="radio" class="btn-check form-check" name="platform" id="q1-a1" value="" autocomplete="on">
-                </div>
-                <div class="col-4">
-                  <label for="q1-a2" class="btn btn-outline-danger answer-button">Mobile</label>
-                  <input type="radio" class="btn-check form-check" name="platform" id="q1-a2" value="" autocomplete="off">
-                </div>
-                <div class="col-4">
-                  <label for="q1-a3" class="btn btn-outline-purple answer-button">Both</label>
-                  <input type="radio" class="btn-check form-check" name="platform" id="q1-a3" value="" autocomplete="off">
-                </div>
+                <input type="radio" class="btn-check" name="projectSize" id="q5-a1" value="3" autocomplete="off">
+                <label class="btn btn-outline-success col-4 answer-button" for="q5-a1">Big Projects</label>
+        
+                <input type="radio" class="btn-check" name="projectSize" id="q5-a2" value="4" autocomplete="off">
+                <label class="btn btn-outline-purple col-4 answer-button" for="q5-a2">Small Projects</label>
+        
+                <input type="radio" class="btn-check" name="projectSize" id="q5-a3" value="5" autocomplete="off">
+                <label class="btn btn-outline-secondary col-4 answer-button" for="q5-a3">Both</label>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!--Quiz Result-->
-      <div class="question quiz-result-bg  container">
-        <div class="question-bg">
-          <h3>Quiz Result</h3>
-          <div class="question-description">
-            <div class="question-description-text">
-              <p>
-                One of the first things to consider when writing code is what platform will best meet the needs of your application. Are you creating advanced desktop apps with robust features, or would the best medium for your code be something more lightweight and mobile? Perhaps you would like to create code that can run on both desktop <em>and</em> mobile, communicating seamlessly between the two. 
-              </p>
-              <p>
-                Knowing what platform your code will be most useful on is a great first step to figuring out what coding language you should learn first.
-              </p>
-            </div>
-            <div class="question-answer-bg">
-              <p><strong>Are you more interested in creating desktop applications, mobile applications, or would you like to work with both?</strong></p>
-            </div>
+      <!--Submit-->
+      <div class="question submit-btn-bg container">
+        <div class="col-12">
+          <label for="submit" class="btn btn-outline-primary submit-button">What Language Should I Learn?</label>
+          <button type="submit" class="btn-check" id="submit" autocomplete="off">
+        </div>
+      </div>
+      
+    </form>
+
+    <!--Quiz Result-->
+    <div class="question quiz-result-bg  container">
+      <div class="question-bg">
+        <h3>Quiz Result</h3>
+        <div class="question-description">
+          <div class="question-answer-bg">
+            <div id="output" class="output"></div>
+          </div>
+          <div class="question-description-text">
+            <p id="js-show">
+              With you keen insincts and all around razzmatazz, you are certain to excel at learning JavaScript! Whether it's a front-end user interface, or a back end database, JavaScript is a handy tool that no programmer should go without.
+            </p>
+            <p id="rb-show">
+              With the heart of a lion, and the eyes of an astronaut, you display much promise in learning Ruby! This object oriented programming language was designed to be powerful but natural to the developer, which soon enough will be you!
+            </p>
+            <p id="py-show">
+              Your entire life has been leading to this moment. Your destiny is nigh. Lend unto me your ear and behold- you shall learn Python! Useful in many situations, but primarily used as a machine language, thanks to it's easy to graps functions.
+            </p>
+            <p id="cs-show">
+              Millions at home were voting while you were submitting your answers, and the vote is in: you are America's Next C# Learner! This complex but rich language is often used for large scale back-end databases and company servers, so if working with a larger organization is your goal, once you learn C# you should fit right in!
+            </p>
+            <p id="jv-show">
+              Rhymes with "brava", tastes like guava, hotter than lava, you should learn Java! You don't need a deep intuition to see the benefits of learning this robust programming language. No need to wear heat resistant clothing either!
+            </p>
           </div>
         </div>
       </div>
-
-      <!--Conclusion-->
-      <div class="question conclusion-bg container">
-        <div class="intro question-bg">
-          <h2>Conclusion</h2>
-          <p>
-            There has never been a better time to start learning how to program. The barrier for entry is only your time and dedication, but doesn't even have to cost you any money. Oh sure, you can definitely find qualified and trained professionals to assist you for a (usually) fair price, but people are even learning how to program, from home, for free, every single day. So if it's so easy to access this information, why not give it a try?
-          </p>
-          <p>
-            Inevitably, no matter what path you choose, you'll have to make this one decision: what programming language should I learn first?
-          </p>
-          <p>
-            Now you have another choice before you; you could go online, do hours of careful research in an attempt to find the perfect first language, or; you can take our Language Suggester Quiz to find out the very best language to suit both your purpose and your personality.
-          </p>
-        </div>
-        <div>
-
-        </div>
-      </div>
-
     </div>
+
+    <!--Conclusion-->
+    <div class="question conclusion-bg container">
+      <div class="intro question-bg">
+        <h2>Conclusion</h2>
+        <p>
+          Concluding remarks. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div>
+
+      </div>
+    </div>
+
   </div>
 </body>
 

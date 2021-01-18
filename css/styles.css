@@ -198,7 +198,92 @@
 }
 
 .answer-button {
+  width: 32%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.submit-button {
   width: 100%;
+  font-size: 26px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.submit-btn-bg {
+  background-color: rgba(245, 245, 245, 0.90);
+  padding: 1.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  border-radius: .3rem;
+  border: solid black 3px;
+}
+
+.output {
+  font-size: 40px;
+  font-weight: bold;
+  font-style:italic;
+  text-align: center;
+}
+
+#js-show {
+  display: none;
+}
+#rb-show {
+  display: none;
+}
+#py-show {
+  display: none;
+}
+#cs-show {
+  display: none;
+}
+#jv-show {
+  display: none;
+}
+
+.btn-check:checked + .primary {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-check:checked + .secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-check:checked + .warning {
+  color: #000;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-outline-danger:checked {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-check:checked + .success {
+  color: #fff;
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.btn-check:checked + .info {
+  color: #000;
+  background-color: #0dcaf0;
+  border-color: #0dcaf0;
+}
+
+.btn-check:checked + .purple {
+  color: #fff;
+  background-color: #af17bd;
+  border-color: #af17bd;
 }
 
 .btn-outline-purple {
@@ -211,17 +296,21 @@
   background-color: #af17bd;
   border-color: #af17bd;
 }
+
 .btn-check:focus + .btn-outline-purple, .btn-outline-purple:focus {
   box-shadow: 0 0 0 0.25rem rgba(177, 13, 253, 0.5);
 }
+
 .btn-check:checked + .btn-outline-purple, .btn-check:active + .btn-outline-purple, .btn-outline-purple:active, .btn-outline-purple.active, .btn-outline-purple.dropdown-toggle.show {
   color: #fff;
   background-color: #af17bd;
   border-color: #af17bd;
 }
+
 .btn-check:checked + .btn-outline-purple:focus, .btn-check:active + .btn-outline-purple:focus, .btn-outline-purple:active:focus, .btn-outline-purple.active:focus, .btn-outline-purple.dropdown-toggle.show:focus {
   box-shadow: 0 0 0 0.25rem rgba(177, 13, 253, 0.5);
 }
+
 .btn-outline-purple:disabled, .btn-outline-purple.disabled {
   color: #af17bd;
   background-color: transparent;
