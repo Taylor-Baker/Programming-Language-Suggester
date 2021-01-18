@@ -139,20 +139,11 @@
   background-repeat: repeat-y;
   background-position: 50% 0px;
   background-size: 1000px;
-  background-image: url('../img/woman-with-phone-pop-art.jpg');
+  background-image: url('../img/thinking-man-pop-art.jpg');
   background-color: rgb(64, 226, 226);
 }
 
 .question2-bg {
-  background-attachment: fixed;
-  background-repeat: repeat-y;
-  background-position: 50% 0px;
-  background-size: 1000px;
-  background-image: url('../img/super-nerd-pop-art.jpg');
-  background-color: rgb(64, 226, 226);
-}
-
-.question3-bg {
   background-attachment: fixed;
   background-repeat: repeat-y;
   background-position: 50% 0px;
@@ -161,7 +152,7 @@
   background-color: rgb(64, 226, 226);
 }
 
-.question4-bg {
+.question3-bg {
   background-attachment: fixed;
   background-repeat: repeat-y;
   background-position: 50% 0px;
@@ -170,12 +161,21 @@
   background-color: rgb(64, 226, 226);
 }
 
+.question4-bg {
+  background-attachment: fixed;
+  background-repeat: repeat-y;
+  background-position: 50% 0px;
+  background-size: 1000px;
+  background-image: url('../img/super-nerd-pop-art.jpg');
+  background-color: rgb(64, 226, 226);
+}
+
 .question5-bg {
   background-attachment: fixed;
   background-repeat: repeat-y;
   background-position: 50% 0px;
   background-size: 1000px;
-  background-image: url('../img/thinking-man-pop-art.jpg');
+  background-image: url('../img/woman-with-phone-pop-art.jpg');
   background-color: rgb(64, 226, 226);
 }
 
