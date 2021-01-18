@@ -1,18 +1,26 @@
 .bg-head {
   background-attachment: scroll;
   background-repeat: repeat-y;
-  background-position: 50% 430px;
+  background-position: 50% 472px;
   background-size: cover;
   background-image: url('../img/whispering-secrets.jpeg');
 }
 
+.bg-head h1 {
+  font-size: 60px;
+}
+
+.bg-head p {
+  font-size: 28px;
+}
+
 .jumbotron {
   padding: 2rem 1rem;
-  padding-top: 9rem;
-  padding-bottom: 9rem;
-  margin-bottom: 2rem;
+  padding-top: 3.6rem;
+  padding-bottom: 3.6rem;
   background-color: #e9ecef;
   border-radius: 0%;
+  border-top: solid black 3px;
   border-bottom: solid black 3px;
 }
 
@@ -24,6 +32,44 @@
   background-image: url('../img/comic-background.jpg');
 }
 
+.intro {
+  padding: 1.5rem;
+  text-align: justify;
+  background-color: rgba(245, 245, 245, 0.5);
+}
+
+.intro p {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.intro-bg {
+  background-attachment: fixed;
+  background-repeat: repeat-y;
+  background-position: 50% 980px;
+  background-size: 1000px;
+  background-image: url('../img/eager-to-learn.jpg');
+}
+
+.language-quiz {
+  padding: 1.5rem;
+  text-align: justify;
+  background-color: rgba(245, 245, 245, 0.5);
+}
+
+.language-quiz p {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.language-quiz-bg {
+  background-attachment: fixed;
+  background-repeat: repeat-y;
+  background-position: 50% 972px;
+  background-size: 1300px;
+  background-image: url('../img/bigstock-writer-editor-journalist.jpg');
+}
+
 .question {
   max-width: 1000px;
   margin-top: 2rem; 
@@ -33,14 +79,19 @@
   text-align: justify;
 }
 
+.question h2 {
+  margin-bottom: 1.5rem;
+  font-size: 42px;
+}
+
 .question h3 {
-  margin-bottom: 1rem;
-  font-size: 32px;
+  margin-bottom: 1.5rem;
+  font-size: 36px;
 }
 
 .question-description {
   color: black;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .question-description-text {
@@ -54,6 +105,10 @@
   padding: 1.5rem;
   margin-left: -0.75rem;
   margin-right: -0.78rem;
+}
+
+.question-bg label {
+  font-size: 26px;
 }
 
 .question-answer-bg {
@@ -108,12 +163,21 @@
   background-color: rgb(64, 226, 226);
 }
 
-.question6-bg {
+.quiz-result-bg {
   background-attachment: fixed;
   background-repeat: repeat-y;
   background-position: 50% 0px;
   background-size: 1500px;
   background-image: url('../img/idea-bulb.jpg');
+  background-color: rgb(64, 226, 226);
+}
+
+.conclusion-bg {
+  background-attachment: fixed;
+  background-repeat: repeat-y;
+  background-position: 50% 0px;
+  background-size: 1500px;
+  background-image: url('../img/what-to-choose.jpg');
   background-color: rgb(64, 226, 226);
 }
 
@@ -145,4 +209,16 @@
 .btn-outline-purple:disabled, .btn-outline-purple.disabled {
   color: #af17bd;
   background-color: transparent;
+}
+
+.bg-foot {
+  background-attachment: scroll;
+  background-repeat: repeat-y;
+  background-position: 50% 320px;
+  background-size: cover;
+  background-image: url('../img/whispering-secrets-male.jpeg');
+}
+
+.bg-foot p {
+  padding: 4rem;
 }
