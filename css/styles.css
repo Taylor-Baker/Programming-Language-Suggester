@@ -46,9 +46,9 @@
 .intro-bg {
   background-attachment: fixed;
   background-repeat: repeat-y;
-  background-position: 50% 980px;
-  background-size: 1000px;
-  background-image: url('../img/eager-to-learn.jpg');
+  background-position: 50% 972px;
+  background-size: 1300px;
+  background-image: url('../img/bigstock-writer-editor-journalist.jpg');
 }
 
 .language-quiz {
@@ -65,15 +65,15 @@
 .language-quiz-bg {
   background-attachment: fixed;
   background-repeat: repeat-y;
-  background-position: 50% 972px;
-  background-size: 1300px;
-  background-image: url('../img/bigstock-writer-editor-journalist.jpg');
+  background-position: 50% 980px;
+  background-size: 1000px;
+  background-image: url('../img/eager-to-learn.jpg');
 }
 
 .question {
   max-width: 1000px;
-  margin-top: 2rem; 
-  margin-bottom: 2rem;  
+  margin-top: 4rem; 
+  margin-bottom: 4rem;  
   border: solid black 3px;
   border-radius: .3rem;
   text-align: justify;
@@ -176,7 +176,7 @@
   background-attachment: fixed;
   background-repeat: repeat-y;
   background-position: 50% 0px;
-  background-size: 1500px;
+  background-size: 1300px;
   background-image: url('../img/what-to-choose.jpg');
   background-color: rgb(64, 226, 226);
 }
