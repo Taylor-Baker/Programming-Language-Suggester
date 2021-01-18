@@ -3,7 +3,7 @@
   margin-top: 2rem; 
   margin-bottom: 2rem;  
   border: solid black 3px;
-  border-radius: 0%;
+  border-radius: .3rem;
   text-align: justify;
 }
 
@@ -12,13 +12,13 @@
 }
 
 .question-description {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
   color: black;
   font-size: 20px;
 }
 
 .question-description-text {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   font-weight: 620;
 }
 
@@ -60,6 +60,24 @@
   background-position: 50% 0px;
   background-size: 1200px;
   background-image: url('../img/woman-wowed-by-vr.jpg');
+  background-color: rgb(64, 226, 226);
+}
+
+.question4-bg {
+  background-attachment: fixed;
+  background-repeat: repeat-y;
+  background-position: 50% 0px;
+  background-size: 1460px;
+  background-image: url('../img/woman-at-laptop-pop-art.jpg');
+  background-color: rgb(64, 226, 226);
+}
+
+.question5-bg {
+  background-attachment: fixed;
+  background-repeat: repeat-y;
+  background-position: 50% 0px;
+  background-size: 1000px;
+  background-image: url('../img/thinking-man-pop-art.jpg');
   background-color: rgb(64, 226, 226);
 }
 
