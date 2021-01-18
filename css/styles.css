@@ -1,4 +1,5 @@
 .question {
+  max-width: 1000px;
   margin-top: 2rem; 
   margin-bottom: 2rem;  
   border: solid black 3px;
@@ -28,11 +29,37 @@
   margin-right: -0.78rem;
 }
 
+.question-answer-bg {
+  background-color: rgba(245, 245, 245, 0.90);
+  padding: 1.5rem;
+  border-radius: .3rem;
+  border: solid black 3px;
+}
+
 .question1-bg {
   background-attachment: fixed;
   background-repeat: repeat-y;
-  background-position: 50% 200px;
+  background-position: 50% 0px;
+  background-size: 1000px;
   background-image: url('../img/woman-with-phone-pop-art.jpg');
+  background-color: rgb(64, 226, 226);
+}
+
+.question2-bg {
+  background-attachment: fixed;
+  background-repeat: repeat-y;
+  background-position: 50% 0px;
+  background-size: 1000px;
+  background-image: url('../img/super-nerd-pop-art.jpg');
+  background-color: rgb(64, 226, 226);
+}
+
+.question3-bg {
+  background-attachment: fixed;
+  background-repeat: repeat-y;
+  background-position: 50% 0px;
+  background-size: 1200px;
+  background-image: url('../img/woman-wowed-by-vr.jpg');
   background-color: rgb(64, 226, 226);
 }
 
@@ -43,7 +70,32 @@
   border-radius: 0%;
 }
 
+.answer-button {
+  width: 100%;
+}
+
 .btn-outline-purple {
   color: #af17bd;
   border-color: #af17bd;
+}
+
+.btn-outline-purple:hover {
+  color: #fff;
+  background-color: #af17bd;
+  border-color: #af17bd;
+}
+.btn-check:focus + .btn-outline-purple, .btn-outline-purple:focus {
+  box-shadow: 0 0 0 0.25rem rgba(177, 13, 253, 0.5);
+}
+.btn-check:checked + .btn-outline-purple, .btn-check:active + .btn-outline-purple, .btn-outline-purple:active, .btn-outline-purple.active, .btn-outline-purple.dropdown-toggle.show {
+  color: #fff;
+  background-color: #af17bd;
+  border-color: #af17bd;
+}
+.btn-check:checked + .btn-outline-purple:focus, .btn-check:active + .btn-outline-purple:focus, .btn-outline-purple:active:focus, .btn-outline-purple.active:focus, .btn-outline-purple.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(177, 13, 253, 0.5);
+}
+.btn-outline-purple:disabled, .btn-outline-purple.disabled {
+  color: #af17bd;
+  background-color: transparent;
 }
