@@ -11,12 +11,6 @@ $(document).ready(function() {
     let pickAnEnd = parseInt($("input:radio[name=pickAnEnd]:checked").val());
     let projectSize = parseInt($("input:radio[name=projectSize]:checked").val());
 
-    console.log(product);
-    console.log(platform);
-    console.log(operatingSystem);
-    console.log(pickAnEnd);
-    console.log(projectSize);
-
     let result = add(product, platform, operatingSystem, pickAnEnd, projectSize);
 
     $('#output').text(`${result}`);
